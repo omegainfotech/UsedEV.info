@@ -1,0 +1,199 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  /* Two-color gradient for the header text */
+  header h1 {
+    background: linear-gradient(90deg, #007bff, #ffd700);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  nav {
+    background: linear-gradient(
+      90deg,
+      #007bff,
+      #ffd700
+    ); /* Two-color gradient background */
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 13px;
+
+  }
+  
+  nav li {
+    display: inline;
+    margin: 30px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background: #007bff; /* Change color on hover */
+  }
+  
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  * Add your CSS styles here */ .model-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .model-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .model-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .model-card p {
+    font-size: 14px;
+  }
+  /* Add your CSS styles here */
+  #charging {
+    background-color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .charging-content {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    max-width: 50%; /* Distribute content in two equal columns */
+    box-sizing: border-box;
+  }
+  
+  .charging-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #charging h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #charging p {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  #charging ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  #charging ul li {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  /* Add more styles as needed */
+  
+  footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  /* Add your CSS styles here */
+#contact {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #contact p {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form form {
+    text-align: left;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add more styles as needed */
